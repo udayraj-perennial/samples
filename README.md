@@ -1,5 +1,5 @@
-# samples
-My code samples
+# Code Samples
+
 App.java
 This example generates a PDF file with
 - Simple text line
