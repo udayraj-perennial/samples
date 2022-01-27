@@ -27,7 +27,7 @@ public class App {
     private static final String
         OUTPUT_FILE_NAME = "/home/uday/HelloWorld.pdf",
         LOGO_LOCATION = "/home/uday/logo.png",
-        TEXT = "Hello World";
+        TEXT = "Welcome to Hello World";
 
     public static void main(String[] args) {
         createDocument(TEXT, OUTPUT_FILE_NAME, LOGO_LOCATION);
@@ -42,7 +42,7 @@ public class App {
         }
 
         document.open();
-        Font font = FontFactory.getFont(FontFactory.HELVETICA , 10, BaseColor.BLACK);
+        Font font = FontFactory.getFont(FontFactory.HELVETICA , 10, BaseColor.RED);
         Chunk chunk = new Chunk(text, font);
 
         try {
