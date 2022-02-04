@@ -42,7 +42,7 @@ public class App {
         }
 
         document.open();
-        Font font = FontFactory.getFont(FontFactory.HELVETICA , 10, BaseColor.RED);
+        Font font = FontFactory.getFont(FontFactory.HELVETICA , 10, BaseColor.Blue);
         Chunk chunk = new Chunk(text, font);
 
         try {
